@@ -1,9 +1,11 @@
+import * as S from './styled';
+
 const Botao = () => {
     return (
-        <button>
-            <img src="/img/play.png" alt="Participante com um presente na mão" />
+        <S.Button>
+            <S.Imagem src="/img/play.png" alt="Símbolo de play" />
             Iniciar brincadeira!
-        </button>
+        </S.Button>
     )
 };
 
