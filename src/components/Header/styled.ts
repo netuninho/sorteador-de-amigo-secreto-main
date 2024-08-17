@@ -3,6 +3,7 @@ import logoDesk from "../../img/logo.png";
 import logoMobile from "../../img/logo-pequeno.png";
 
 export const Header = styled.header `
+    padding-top: 90px;
     background-color: #4B69FD;
     display: flex;
     justify-content: center;
@@ -10,7 +11,7 @@ export const Header = styled.header `
     @media screen and (max-width: 800px) {
         flex-direction: column;
         align-items: center;
-        padding-top: 123px
+        padding-top: 30px
     }
 ` 
 
