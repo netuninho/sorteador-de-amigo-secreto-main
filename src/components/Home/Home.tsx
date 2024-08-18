@@ -1,11 +1,15 @@
-import Botao from "../Button/Botao";
 import Formulario from "../Form/Formulario";
+import * as S from './styled';
 
 const Home = () => {
     return (
         <>
-            <Formulario/>
-            <Botao/>
+            <S.Background>
+                <S.Container>
+                    <S.Titulo>Vamos começar!</S.Titulo>
+                    <Formulario/>
+                </S.Container>
+            </S.Background>
         </>
     )
 };

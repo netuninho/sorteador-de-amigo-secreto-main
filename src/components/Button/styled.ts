@@ -20,6 +20,7 @@ export const Button = styled.button `
 
     width: 300px;
     height: 80px;
+    cursor: pointer;
 
     @media screen and (max-width: 800px) {
         box-shadow: 2px 2px 0px 0px #000000;
