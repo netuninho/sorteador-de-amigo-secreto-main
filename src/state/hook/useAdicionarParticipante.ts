@@ -9,6 +9,9 @@ export const useAdicionarParticipante = () => {
     return(nomeParticipante: string) => {
         if(lista.includes(nomeParticipante)) {
             setErro("Você já inseriu esse nome antes")
+            setTimeout(() => {
+                setErro("")
+            }, 5000)
             return
         } 
 
